@@ -193,60 +193,14 @@ The following evaluation metrics are used:
 
 - Test Loss
 - Accuracy
-- Precision
-- Recall
-- F1-score
 - Confusion Matrix
-
-### Experimental Results
-
-| Metric | Score |
-|---|---|
-| Test Loss | To be updated |
-| Test Accuracy | To be updated |
-| Macro Precision | To be updated |
-| Macro Recall | To be updated |
-| Macro F1-score | To be updated |
-| Weighted F1-score | To be updated |
-
-*Replace the placeholder values with your actual test results.*
-
-### Confusion Matrix
-
-Add your confusion matrix here after completing the final evaluation.
-
-For example:
-
-```python
-from sklearn.metrics import ConfusionMatrixDisplay
-import matplotlib.pyplot as plt
-
-ConfusionMatrixDisplay.from_predictions(
-    y_true,
-    y_pred,
-    display_labels=[
-        "WALKING",
-        "WALKING_UPSTAIRS",
-        "WALKING_DOWNSTAIRS",
-        "SITTING",
-        "STANDING",
-        "LAYING"
-    ],
-    xticks_rotation=45,
-    cmap="Blues"
-)
-
-plt.title("HAR Confusion Matrix")
-plt.tight_layout()
-plt.show()
-```
 
 ## 💻 Installation
 
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/HAR-Activity-Recognition.git
+git clone https://github.com/farzadhashemi1/HAR-Activity-Recognition.git
 ```
 
 ### 2. Navigate to the project directory
@@ -308,9 +262,9 @@ Potential improvements and future experiments include:
 
 ## 👨‍💻 Author
 
-**YOUR NAME**
+**Farzad Hashemi**
 
-GitHub: [YOUR_GITHUB_PROFILE](https://github.com/YOUR_USERNAME)
+GitHub: [farzadhashemi1](https://github.com/farzadhashemi1)
 
 ---
 
